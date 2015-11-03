@@ -42,24 +42,31 @@ public class Brian {
         graphics.drawArc(x + (width * 33 / 100), y + (height * 153 / 1000), width * 3 / 10, height * 37 / 100, 180, 180);
         graphics.drawArc(x + (width * 33 / 100), y + (height * 147 / 1000), width * 3 / 10, height * 37 / 100, 180, 180);
         
-        //cheek smile
+        //left cheek smile
         
         graphics.drawArc(x + (width * 305 / 1000), y + (height * 28 / 100), width * 5 / 100, height * 5 / 100, 200, 140);
         graphics.drawArc(x + (width * 305 / 1000), y + (height * 279 / 1000), width * 5 / 100, height * 5 / 100, 200, 140);
         
-        //cheek smile
+        //right cheek smile
         
         graphics.drawArc(x + (width * 604 / 1000), y + (height * 28 / 100), width * 5 / 100, height * 5 / 100, 200, 140);
         graphics.drawArc(x + (width * 604 / 1000), y + (height * 279 / 1000), width * 5 / 100, height * 5 / 100, 200, 140);
         
-        //left feet
+        //left foot
+        
         graphics.setColor(Color.black);
         graphics.fillRoundRect(x + (width * 196 / 1000) , y + (height * 9966 /10000), width * 212 / 1000, height * 112 / 1000, 20, 250);
         
         graphics.setColor(Color.yellow);
         graphics.fillRoundRect(x + (width * 20 / 100) , y + (height * 10 /10), width * 2 / 10, height * 97 / 1000, 20, 250);
         
-         
+        //right foot
+        
+        graphics.setColor(Color.black);
+        graphics.fillRoundRect(x + (width * 546 / 1000) , y + (height * 9966 /10000), width * 212 / 1000, height * 112 / 1000, 20, 250);
+        
+        graphics.setColor(Color.yellow);
+        graphics.fillRoundRect(x + (width * 55 / 100) , y + (height * 10 /10), width * 2 / 10, height * 97 / 1000, 20, 250);
         
     }
     
